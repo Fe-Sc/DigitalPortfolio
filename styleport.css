@@ -1,0 +1,43 @@
+:root{
+    --text-color: #272727;
+    --link-color: #379bcd;
+    --background-color: #f2f2f2;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Lexend", sans-serif;
+    background-color: var(--background-color);
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+.container{
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+    height: 80px;
+}
+
+.name{
+    font-size: 30px;
+}

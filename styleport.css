@@ -1,6 +1,6 @@
 :root{
     --text-color: #272727;
-    --link-color: #379bcd;
+    --link-color: #272727;
     --background-color: #f2f2f2;
 }
 
@@ -36,8 +36,37 @@ nav{
     padding: 40px;
     align-items: center;
     height: 80px;
+    background-color: #e6e4e4;
 }
 
 .name{
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: 500;;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+
+#main h2{
+    font-weight: 400;
+}
+
+.links{
+    margin-top: 20px;
+    justify-content: space-evenly;
+    font-size: 20px;
+
+}
+
+.links a{
+    border: 2px;
+    border-style: solid;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
 }

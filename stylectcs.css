@@ -1,0 +1,55 @@
+html{
+    font-family: "Lexend", sans-serif;
+    background-color: var(--background-color);
+}
+
+:root{
+    --text-color: #272727;
+    --link-color: #272727;
+    --background-color: #f2f2f2;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+.name{
+    font-size: 40px;
+    font-weight: 500;;
+}
+
+.main{
+    animation: fade-up 1.5s;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 40vh;
+}
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+    height: 80px;
+    animation: fade-down 1s;
+    font-weight: 300;
+}

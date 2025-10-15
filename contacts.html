@@ -34,16 +34,20 @@
     </nav>
 
     <div class="contact-container">
+  <form action="https://api.web3forms.com/submit" method="POST" id="form">
         <form action="" class="contact-left">
             <div class="contact-left-title">
-                <h2>Contact me</h2>
+                <h2>Contact me!</h2>
+                <h3>Feel free to contact me here if you have any questions about me!</h3>
                 <hr>
             </div>
+            <input type="hidden" name="access_key" value="af5fb7ba-da8f-4923-a19d-afb7b5691568">
             <input type="text" name="name" placeholder="Your name" class="contact-inputs" required>
             <input type="email" name="email" placeholder="Your email" class="contact-inputs" required>
             <textarea name="message" placeholder="Your message" class="contact-inputs" required></textarea>
             <button type="submit">Submit</button>
         </form>
+    </form>
     </div>
 
     

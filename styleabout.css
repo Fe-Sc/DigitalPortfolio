@@ -101,12 +101,22 @@ main{
     color: #8fbaff;
 }
 
-.about{
+.about {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: white;
     margin: 50px;
     padding: 50px;
     border-radius: 100px;
+    gap: 50px;
 }
+
+
+
+
+#aboutme{
+    flex: 1;
+}
+
+

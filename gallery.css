@@ -86,3 +86,18 @@ nav{
         transform: translateY(0);
     }
 }
+
+
+.lutte img{
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.folders{
+    display: flex;
+    height: 80vh;
+    gap: 50px;
+}

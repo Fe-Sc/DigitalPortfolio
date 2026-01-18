@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deventer</title>
+    <link rel = "stylesheet" href="gallery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="name">
+            <a href="index.html">FERNANDO SCHINTZ</a>
+        </div>
+        <div class="middle">
+            <a href="photography.html">
+                <span>GALLERY</span>
+            </a>
+        </div>
+    </nav>
+    <div class="photos">
+        <img src="Deventer-1Small.jpg" onclick="openModal(this.src)">
+        <img src="Deventer-2Small.jpg" onclick="openModal(this.src)">
+        <img src="Deventer-3Small.jpg" onclick="openModal(this.src)">
+        <img src="Deventer-4Small.jpg" onclick="openModal(this.src)">
+        <img src="Deventer-1-2Small.jpg" onclick="openModal(this.src)">
+    </div>
+
+    <div id="imgModal" class="modal" onclick="closeModal()">
+        <img class="modal-content" id="modalImg">
+    </div>
+    <script>
+        function openModal(src){
+            document.getElementById("imgModal").style.display = "flex";
+            document.getElementById("modalImg").src = src;
+        }
+        function closeModal(){
+            document.getElementById("imgModal").style.display = "none"
+        }
+    </script>
+</body>
+</html>

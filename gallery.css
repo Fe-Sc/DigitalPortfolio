@@ -121,11 +121,12 @@ nav{
 }
 
 .photos{
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
 }
 .photos img{
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 400px;
     margin: 20px;
     transition: transform 0.5s ease;
 }

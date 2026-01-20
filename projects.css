@@ -44,7 +44,6 @@ nav{
 
 
 
-
 @keyframes fade-up {
     0% {
         opacity: 0;
@@ -77,6 +76,7 @@ h2{
 }
 
 .base{
+    flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,6 +93,7 @@ h2{
 
 .image{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;

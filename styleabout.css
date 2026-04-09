@@ -73,15 +73,19 @@ nav{
 
 main{
         animation: fade-up 1.5s;
+    display: flex;
+    align-items: center;
+    gap: 50px;
 }
 
 .header{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    height: 40vh;
-    margin-left: 50px;
+    height: auto;
+    margin-left: 0;
     flex-direction: column;
+    flex: 1;
 }
 
 .header h1{
@@ -110,6 +114,14 @@ main{
     padding: 50px;
     border-radius: 100px;
     gap: 50px;
+}
+
+.image img {
+    width: 350px;
+    height: auto;
+    border-radius: 30px;
+    object-fit: cover;
+
 }
 
 

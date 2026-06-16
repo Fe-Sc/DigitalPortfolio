@@ -138,3 +138,27 @@ nav{
 .description{
     text-align: center;
 }
+
+.flip #reverseBtn{
+    appearance: none;
+    display: flex;
+    position: fixed; 
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    background: rgba(255,255,255,0.95);
+    padding: 12px 18px;
+    border-radius: 12px;
+    border-color: #ffffff;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    gap: 12px;
+    align-items: center;
+    cursor: pointer;
+    width: 10%;
+    height: 10%;
+    font-family: "Lexend", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
